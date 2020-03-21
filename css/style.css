@@ -1,19 +1,45 @@
 * {
     box-sizing: border-box;
 }
-
 body {
+    background: #464f54;
+    position: relative;
+}
+
+.container {
+    
     background: #464f54;
     display: flex;
     justify-content: center;
     margin-top: 150px;
+    
+}
+.title {
+    width: 950px;
+    height: 185px;
+    position: fixed;
+    top: 50px;
+    left: 450px;
+    
+    background: black;
+    color: white;
+}
+.tools {
+    width: 850px;
+    background: #f5bb2c;
+    position: absolute;
+    
+    
+}
+img:hover{
+    color: wheat;
+    background: wheat;
 }
 
 .article {
     background: white;
-    position: relative;
     width: 60%;
-    height: 450px;
+    height: 1450px;
 
 
 }
@@ -50,14 +76,7 @@ body {
 
 
 
-.title {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 2;
-    background: black;
-    color: white;
-}
+
 
 .title input {
     background: black;
@@ -65,10 +84,3 @@ body {
     border: none;
 }
 
-.tools {
-    background: #f5bb2c;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 1;
-}
